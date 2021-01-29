@@ -109,7 +109,6 @@
 	top:0;
 	width:68px;
 	height:68px;
-	font-family: FontAwesome;
 	text-align:center;
 	line-height:66px;
 	font-size:32px;
@@ -117,9 +116,9 @@
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.owl-theme .owl-controls .owl-buttons .owl-prev:before {content: "\f104";}
-.owl-theme .owl-controls .owl-buttons .owl-next:before {content: "\f105";}
-.owl-theme .owl-controls .owl-buttons div:hover:before {color:#333;}
+.owl-theme .owl-controls .owl-buttons .owl-prev:before {content: "<-";}
+.owl-theme .owl-controls .owl-buttons .owl-next:before {content: "->";}
+.owl-theme .owl-controls .owl-buttons div:hover:before {color:rgb(255, 0, 0);}
 
 
 /* Styling Pagination*/

@@ -75,11 +75,10 @@ html[xmlns] .slides {display: block;}
 	display:block;
 	width:70px;
 	height:70px;
-	font-family:FontAwesome;
 	text-align:center;
 	background-color:#fff;
 }
-.flexslider.top_slider .flex-direction-nav li a:hover {background-color:#333;}
+.flexslider.top_slider .flex-direction-nav li a:hover {background-color:rgb(255, 0, 0);}
 .flexslider.top_slider .flex-direction-nav li a.flex-prev {left:0;}
 .flexslider.top_slider .flex-direction-nav li a.flex-next {left:71px;}
 .flexslider.top_slider .flex-direction-nav li a:before {
@@ -94,9 +93,9 @@ html[xmlns] .slides {display: block;}
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.flexslider.top_slider .flex-direction-nav li a.flex-prev:before {content: "\f104";}
-.flexslider.top_slider .flex-direction-nav li a.flex-next:before {content: "\f105";}
-.flexslider.top_slider .flex-direction-nav li a:hover:before {color:#fff;}
+.flexslider.top_slider .flex-direction-nav li a.flex-prev:before {content: "<-";}
+.flexslider.top_slider .flex-direction-nav li a.flex-next:before {content: "->";}
+.flexslider.top_slider .flex-direction-nav li a:hover:before {color:rgb(251, 255, 0);}
 
 
 
@@ -110,7 +109,6 @@ html[xmlns] .slides {display: block;}
 	display:block;
 	width:200px;
 	height:100%;
-	font-family:FontAwesome;
 	text-align:center;
 	opacity:0;
 }
@@ -131,9 +129,9 @@ html[xmlns] .slides {display: block;}
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.flexslider.portfolio_single_slider .flex-direction-nav li a.flex-prev:before {content: "\f104"; left:0;}
-.flexslider.portfolio_single_slider .flex-direction-nav li a.flex-next:before {content: "\f105"; right:0;}
-.flexslider.portfolio_single_slider .flex-direction-nav li a:hover:before {color:#fff;}
+.flexslider.portfolio_single_slider .flex-direction-nav li a.flex-prev:before {content: "<---"; left:0;}
+.flexslider.portfolio_single_slider .flex-direction-nav li a.flex-next:before {content: "--->"; right:0;}
+.flexslider.portfolio_single_slider .flex-direction-nav li a:hover:before {color:rgb(255, 0, 0);}
 
 
 
@@ -312,7 +310,7 @@ html[xmlns] .slides {display: block;}
 /* Caption */
 .top_slider .slide1 {
 	height:100%;
-	background-image:url(../images/slider/gilabola.jpg);
+	background-image:url(../images/slider/cro1.jpg);
 	background-size:cover;
 	background-attachment:fixed !important;
 }
@@ -341,7 +339,7 @@ html[xmlns] .slides {display: block;}
 
 .top_slider .slide2 {
 	height:100%;
-	background-image:url(../images/slider/prsj.jpg);
+	background-image:url(../images/slider/cro2.jpg);
 	background-size:cover;
 	background-attachment:fixed !important;
 }
@@ -369,7 +367,7 @@ html[xmlns] .slides {display: block;}
 
 .top_slider .slide3 {
 	height:100%;
-	background-image:url(../images/slider/cro.jpg);
+	background-image:url(../images/slider/cro3.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
