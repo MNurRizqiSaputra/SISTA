@@ -7,3 +7,6 @@ ANGGOTA:
 2.FRONT-END -- M NUR RIZQI SAPUTRA (0110120025)
 3.UI/UX------- ARIF SATRIYO NUR ALVIAN (0110120142)
 4.BACK-END---- REYHANSYAH (0110120043)
+
+link hosting website ini :
+https://sista-kelompok1.netlify.app/
